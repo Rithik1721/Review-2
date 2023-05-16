@@ -1,0 +1,45 @@
+body{
+    background: url("web4.avif");
+}
+h3{
+    font-size: medium;
+}
+.regform{
+    margin: 30px auto;
+    border-style: double;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 10px 20px 30px;
+    width:500px;
+    text-align: center;
+    position: relative;
+}
+button{
+    color:black;
+    background-color: rgb(168, 210, 211);
+    font-size: medium;
+}
+.textlabel{
+    color:rgb(14, 114, 106);
+}
+h6{
+    font-size: 100px;
+    position:absolute;
+    left:-200px;
+    z-index: -3;
+    opacity:0.1;
+    text-align: center;
+    transform: rotate(30deg);
+    color:grey;
+}
+button:hover{
+    background-color: aquamarine;
+}
+.radio{
+    color:rgb(14, 114, 106);
+    font-weight: bolder;
+}
+.terms{
+    color:rgb(14, 114, 106);
+    font-weight: bolder;
+}
